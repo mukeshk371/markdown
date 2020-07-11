@@ -6,7 +6,7 @@
 > $ sudo apt install apache2
 #### Step 3 :- Start Apache Server
 > $ sudo systemctl start apache2
-### Create Dictonary for website
+### _Create Dictonary for website_
 #### Step 4 :- Create folder 1
 > $ sudo mkdir /var/www/html/project-management
 #### Step 5 :- Create folder 2
@@ -31,3 +31,12 @@ DocumentRoot /var/www/html/project-management
 #### Step 11 :- Paste the following to the myportfolio.conf
 > ServerName myportfolio<br/>
 DocumentRoot /var/www/html/myportfolio_new
+#### Step 12 :- Enable both virtual hosts
+> $ sudo a2ensite myportfolio_new
+>
+> $ sudo a2ensite project-management
+#### Step 13 :- Retart Apache Server
+> $ sudo systemctl restart apache2
+#### Step 14 :- Now check both the websites using following urls
+[Website 1](http://192.168.31.14/project-management)
+[Website 2](http://192.168.31.14/myportfolio)
