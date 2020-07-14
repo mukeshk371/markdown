@@ -7,8 +7,8 @@
 | Paragraph   | Text        |
 ## _Web Hosting_
 ![DNS](https://www.website.com/img/skin/what_is_web_hosting.webp "dns")
-## How to host multiple websites on a single server using Apache HTTP Server
-### _Installation process of Apache Server (Run the following commands)_
+## _How to host multiple websites on a single server using Apache HTTP Server_
+### Installation process of Apache Server (Run the following commands)
 #### Step 1 : Update System packages
 > $ sudo apt update
 #### Step 2 : Install Apache Server
