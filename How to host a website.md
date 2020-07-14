@@ -1,10 +1,10 @@
 ## _How Does a website Work?_
 ![DNS](https://www.thesslstore.com/blog/wp-content/uploads/2019/04/DNS-Diagram.png "dns")
 ## _Importan terms for hosting a website_
-| Term        | Description |
-| :---------- | ----------- |
-| DNS         | Title       |
-| Paragraph   | Text        |
+| ---------- |
+| Domain Name Server (DNS)     |
+| ---------- |
+| Every computer has their own unique address assined on the internet which is known as IP Address (Internet Protocol).    |
 ## _Web Hosting_
 ![DNS](https://www.website.com/img/skin/what_is_web_hosting.webp "dns")
 ## _How to host multiple websites on a single server using Apache HTTP Server_
