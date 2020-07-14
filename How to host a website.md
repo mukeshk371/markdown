@@ -1,8 +1,12 @@
+## _How Does a website Work?_
+![DNS](https://www.thesslstore.com/blog/wp-content/uploads/2019/04/DNS-Diagram.png "dns")
 ## _Importan terms for hosting a website_
 | Term        | Description |
 | :---------- | ----------- |
 | DNS         | Title       |
 | Paragraph   | Text        |
+## _Web Hosting_
+![DNS](https://www.website.com/img/skin/what_is_web_hosting.webp "dns")
 ## How to host multiple websites on a single server using Apache HTTP Server
 ### _Installation process of Apache Server (Run the following commands)_
 #### Step 1 : Update System packages
