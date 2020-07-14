@@ -1,4 +1,8 @@
-## Importan terms for hosting a website
+## _Importan terms for hosting a website_
+| Term        | Description |
+| :---------- | ----------- |
+| DNS         | Title       |
+| Paragraph   | Text        |
 ## How to host multiple websites on a single server using Apache HTTP Server
 ### _Installation process of Apache Server (Run the following commands)_
 #### Step 1 : Update System packages
