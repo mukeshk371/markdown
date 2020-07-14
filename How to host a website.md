@@ -4,6 +4,7 @@
 | Terms | Description |
 | :---- | ----------- |
 | IP Address | Every computer has their own unique address assined on the internet which is known as **_IP Address (Internet Protocol)_**. <br> _Example: 198.128.289.1_ |
+| DNS Server | DNS Server is a computer server. It contains a database having IP address and their associated hostname |
 ## _Importan terms descriptions_
 | Domain Name Server (DNS)     |
 | ---------- |
