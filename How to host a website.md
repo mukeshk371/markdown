@@ -27,11 +27,23 @@
 #### Step 9 : Create Apache virtual host configuration file for folder/website 1
 > $ sudo nano /etc/apache2/sites-available/project-management.conf
 #### Step 10 : Paste the following to the project-management.conf
-> ServerName  project-management<br/>
-DocumentRoot /var/www/html/project-management
+> &#60;VirtualHost *:80&#62;<br/>
+ServerAdmin admin@localhost<br/>
+ServerName  project-management<br/>
+DocumentRoot /var/www/html/project-management<br/>
+DirectoryIndex index.html<br/>
+ErrorLog ${APACHE_LOG_DIR}/192.168.0.101_error.log<br/>
+CustomLog ${APACHE_LOG_DIR}/192.168.0.101_access.log combined<br/>
+&#60;/VirtualHost&#62;
 #### Step 11 : Paste the following to the myportfolio.conf
-> ServerName myportfolio<br/>
-DocumentRoot /var/www/html/myportfolio_new
+> &#60;VirtualHost *:80&#62;<br/>
+ServerAdmin admin@localhost<br/>
+ServerName  myportfolio<br/>
+DocumentRoot /var/www/html/myportfolio_new<br/>
+DirectoryIndex index.html<br/>
+ErrorLog ${APACHE_LOG_DIR}/192.168.0.101_error.log<br/>
+CustomLog ${APACHE_LOG_DIR}/192.168.0.101_access.log combined<br/>
+&#60;/VirtualHost&#62;
 #### Step 12 : Enable both virtual hosts
 > $ sudo a2ensite myportfolio_new
 >
