@@ -8,7 +8,7 @@
 ## _Importan terms descriptions_
 | Domain Name Server (DNS)     |
 | ---------- |
-|  Its very tough to remember ip addresses of all websites. Computer remembers the ip address and DNS converts a **_URL (Uniform Resource Locator)_** into IP Address that computer can understand.<br><br> When we type a url like(google.com) in the browser. Then, the browser needs the ip address of google.com. Then, the browser contact to the DNS server to query the location of the server where the webpages are stored.    |
+|  When users access a web page then they don't type that ip address. They type like _www.google.com_. A web address with a hostname in it. <br> The way through which a web address get translated into an ip address is known as _**Domain Name System (DNS)**_.<br><br> Its very tough to remember ip addresses of all websites. Computer remembers the ip address and DNS converts a **_URL (Uniform Resource Locator)_** into IP Address that computer can understand.<br><br> When we type a url like(google.com) in the browser. Then, the browser needs the ip address of google.com. Then, the browser contact to the DNS server to query the location of the server where the webpages are stored.    |
 ## _Web Hosting_
 ![DNS](https://www.website.com/img/skin/what_is_web_hosting.webp "dns")
 ## _How to host multiple websites on a single server using Apache HTTP Server_
