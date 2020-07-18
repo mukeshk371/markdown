@@ -6,7 +6,7 @@
 | IP Address | Every computer has their own unique address assined on the internet which is known as **_IP Address (Internet Protocol)_**. <br> _Example: 198.128.289.1_ |
 | DNS Server | DNS Server is a computer server. It contains a database having IP address and their associated hostname |
 ## _Importan terms descriptions_
-| Domain Name Server (DNS)     |
+| Domain Name System (DNS)     |
 | ---------- |
 |  When users access a web page then they don't type that ip address. They type like _www.google.com_. A web address with a hostname in it. <br> The way through which a web address get translated into an ip address is known as _**Domain Name System (DNS)**_.<br><br> Its very tough to remember ip addresses of all websites. Computer remembers the ip address and DNS converts a **_URL (Uniform Resource Locator)_** into IP Address that computer can understand.<br><br> When we type a url like(google.com) in the browser. Then, the browser needs the ip address of google.com. Then, the browser contact to the DNS server to query the location of the server where the webpages are stored.    |
 ## _Web Hosting_
